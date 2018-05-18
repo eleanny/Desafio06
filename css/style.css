@@ -1,0 +1,64 @@
+html{
+	font-size: 16px;
+}
+body{
+	background-color: #D3D3D3;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+.container{
+	background-color: white;
+	border-radius: 3px;
+    
+}
+h1{
+	font-size: 1.4rem;
+}
+h2{
+	font-size: 1.2rem;
+	color: #f16045;
+	margin-bottom: 2rem;
+}p{
+	margin-bottom: 2rem;
+}
+h2::before{
+	content: "// ";
+
+}
+ul{
+	margin-left: 40px;
+	margin-bottom: 2rem;
+}
+header{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border: solid 1px #D3D3D3;
+	text-align: center;
+}
+/*colors*/
+.color-orange{
+	color:#f16045;
+}
+.color-grey{
+	color: #ccc;
+}/*idiomas*/
+.idioma{
+	border-bottom: solid 1px #ccc;
+	padding: 5px 0;
+}
+.idioma::after{
+	content: " ";
+	clear:both;
+	display: table;
+
+}
+.idioma__title{
+	width: 50%;
+	float:left;
+}
+.idioma__star{
+	width: 50%;
+	float: left;
+	text-align: right;
+}

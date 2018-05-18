@@ -8,16 +8,23 @@
 	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
-	background-color: pink;
+
+}
+.container::after{
+	content: " ";
+	clear:both;
+	display: table;
 
 }
 /*Columnas*/
-.cell{
-	float:left;
+.cell{	
 	box-sizing: border-box;
-	border: solid black 1;
 	padding: 0 10px;
 
+}
+@media(min-width: 500px){
+.cell{
+	float: left;
 }
 .col-1{
 	width: 8.3%;
@@ -50,7 +57,7 @@
 	
 }
 .col-9{
-	width: 75.2%;
+	width: 75%;
 	
 }
 .col-10{
@@ -64,4 +71,6 @@
 .col-12{
 	width: 100%;
 	
+}
+
 }
