@@ -2,25 +2,35 @@ html{
 	font-size: 16px;
 }
 body{
-	background-color: #D3D3D3;
+	background-color: #ccc;
 	font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #333;
+    width: 100%;
 }
 .container{
 	background-color: white;
 	border-radius: 3px;
+	width: 100%;
     
 }
 h1{
 	font-size: 1.4rem;
+	margin-top: 100px;
+	margin-bottom: 20px;
 }
 h2{
 	font-size: 1.2rem;
 	color: #f16045;
 	margin-bottom: 2rem;
-}p{
+	margin-left: 10px;
+}
+h3{
+	margin-left: 10px;
+}
+p{
 	margin-bottom: 2rem;
+	margin-left: 10px;
 }
 h2::before{
 	content: "// ";
@@ -33,8 +43,12 @@ ul{
 header{
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	border: solid 1px #D3D3D3;
+	border: solid 1px #ccc;
 	text-align: center;
+
+
+
+
 }
 /*colors*/
 .color-orange{
@@ -45,12 +59,13 @@ header{
 }/*idiomas*/
 .idioma{
 	border-bottom: solid 1px #ccc;
-	padding: 5px 0;
+	padding-left: 10px;
 }
 .idioma::after{
 	content: " ";
 	clear:both;
 	display: table;
+
 
 }
 .idioma__title{
@@ -62,3 +77,65 @@ header{
 	float: left;
 	text-align: right;
 }
+.img{
+	background-color: #ccc;
+	height: 80px; 
+	
+
+}
+.perfil{
+  height: 50%;
+
+}
+.img_perfil{
+	border-radius: 200%;
+	width: 18%;
+	height: 200%;
+	border: solid 8px #ccc;
+
+}
+.p1{
+	width: 90%;
+	background-color:#f16045;
+	height: 20px;
+	color:white;
+	margin-bottom: 5px;
+}
+.p2{
+	width: 70%;
+	background-color:#f16045;
+	height: 20px;
+	color:white;
+	margin-bottom: 5px;
+}
+.p3{
+	width: 60%;
+	background-color:#f16045;
+	height: 20px;
+	color:white;
+	margin-bottom: 5px;
+}
+.p4{
+	width: 50%;
+	background-color:#f16045;
+	height: 20px;
+	color:white;
+	margin-bottom: 5px;
+}
+.p5{
+	width: 40%;
+	background-color:#f16045;
+	height: 20px;
+	color:white;
+	margin-bottom: 5px;
+
+}
+.footer{
+	border-top: solid 1px #ccc;
+	height: 10px;
+}
+.ft{
+	margin-top: 10px;
+	float:right;
+}
+
