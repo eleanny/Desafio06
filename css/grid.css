@@ -72,4 +72,10 @@
 	width: 100%;
 	
 }
+.img_perfil{
+	border-radius: 80%;
+	height: 150%;
+	width: 50%;
+	border: solid 8px #ccc;
+}
 }

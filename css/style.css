@@ -22,6 +22,7 @@ h1{
 h2{
 	font-size: 1.2rem;
 	color: #f16045;
+	padding-top: 13px;
 	margin-bottom: 2rem;
 	margin-left: 10px;
 }
@@ -43,7 +44,6 @@ ul{
 header{
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	border: solid 1px #ccc;
 	text-align: center;
 
 
@@ -56,7 +56,12 @@ header{
 }
 .color-grey{
 	color: #ccc;
-}/*idiomas*/
+}
+.color-black{
+    color: black;
+    font-weight: bold;
+}
+/*idiomas*/
 .idioma{
 	border-bottom: solid 1px #ccc;
 	padding-left: 10px;
@@ -65,8 +70,6 @@ header{
 	content: " ";
 	clear:both;
 	display: table;
-
-
 }
 .idioma__title{
 	width: 50%;
@@ -80,11 +83,13 @@ header{
 .img{
 	background-color: #ccc;
 	height: 80px; 
-	
+	box-sizing: border-box;
+
 
 }
 .perfil{
   height: 50%;
+  border-bottom: solid 1px #ccc;
 
 }
 .img_perfil{
@@ -94,40 +99,73 @@ header{
 	border: solid 8px #ccc;
 
 }
+.educ{
+   background-color: #ccc;
+   border-radius: 5px;
+   margin-bottom: 5px;
+   margin-top: 0;
+}
+.educ::before {
+	display: block;
+	position:relative;
+	left: -430px;
+	bottom:0px;
+	content:" ";
+	border-color: transparent #ccc transparent transparent;
+	border-style:solid;
+	border-width:15px;
+}
+.educ p{
+	margin-top: 0;
+	margin-bottom: 0px;
+
+}
+.skills{
+	padding-top: 17px;
+}
 .p1{
 	width: 90%;
 	background-color:#f16045;
-	height: 20px;
+	height: 25px;
 	color:white;
 	margin-bottom: 5px;
 }
 .p2{
 	width: 70%;
 	background-color:#f16045;
-	height: 20px;
+	height: 25px;
 	color:white;
 	margin-bottom: 5px;
 }
 .p3{
 	width: 60%;
 	background-color:#f16045;
-	height: 20px;
+	height: 25px;
 	color:white;
 	margin-bottom: 5px;
 }
 .p4{
 	width: 50%;
 	background-color:#f16045;
-	height: 20px;
+	height: 25px;
 	color:white;
 	margin-bottom: 5px;
 }
 .p5{
 	width: 40%;
 	background-color:#f16045;
-	height: 20px;
+	height: 25px;
 	color:white;
 	margin-bottom: 5px;
+
+}
+.hobbies p{
+	width: auto;
+	background-color: #800080;
+	height:30px;
+	color:white;
+	float: left;
+	padding: 3px;
 
 }
 .footer{
