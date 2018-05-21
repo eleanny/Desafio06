@@ -65,6 +65,7 @@ header{
 .idioma{
 	border-bottom: solid 1px #ccc;
 	padding-left: 10px;
+	padding-top: 10px;
 }
 .idioma::after{
 	content: " ";
@@ -160,20 +161,19 @@ header{
 
 }
 .hobbies p{
-	width: auto;
+	width:15%;
 	background-color: #800080;
 	height:30px;
 	color:white;
-	float: left;
+	display: inline-block;
 	padding: 3px;
 
 }
 .footer{
 	border-top: solid 1px #ccc;
-	height: 10px;
+
 }
 .ft{
-	margin-top: 10px;
 	float:right;
 }
 
