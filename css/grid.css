@@ -23,6 +23,12 @@
 
 }
 @media(min-width: 500px){
+.img_perfil{
+	border-radius: 80%;
+	height: 50%;
+	width: 200%;
+	border: solid 8px #ccc;
+}
 .cell{
 	float: left;
 }
@@ -71,11 +77,5 @@
 .col-12{
 	width: 100%;
 	
-}
-.img_perfil{
-	border-radius: 80%;
-	height: 150%;
-	width: 50%;
-	border: solid 8px #ccc;
 }
 }
